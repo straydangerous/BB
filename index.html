@@ -15,7 +15,7 @@
 <header class="header center">
     <div class="header__inner">
         <a class="header__logo" href="#">
-            <img class="" src="img/logo.png" alt="image">
+            <img src="img/logo.png" alt="bubuster">
         </a>
         <nav class="nav">
             <ul class="nav__list">
@@ -23,7 +23,7 @@
                     <a class="nav__link" href="#">Головна</a>
                 </li>
                 <li class="nav__item">
-                    <a class="nav__link" href="#">Програма курса</a>
+                    <a class="nav__link" href="#program">Програма курса</a>
                 </li>
                 <li class="nav__item">
                     <a class="nav__link" href="#">Відгуки</a>
@@ -32,37 +32,43 @@
                     <a class="nav__link" href="#">Контакти</a>
                 </li>
             </ul>
+            <ul class="nav__icons">
+                <li class="nav__icons-item">
+                    <a href="#" class="nav__icons-link" target="_blank">
+                        <img src="img/tiktok.svg" alt="tiktok">
+                    </a>
+                </li>
+                <li class="nav__icons-item">
+                    <a href="https://www.facebook.com/profile.php?id=61553482581639" class="nav__icons-link"
+                       target="_blank">
+                        <img src="img/facebook.svg" alt="facebook">
+                    </a>
+                </li>
+                <li class="nav__icons-item">
+                    <a href="https://www.instagram.com/bug_buster_qa?igsh=N29zZXMzZ3ZseXNl" class="nav__icons-link"
+                       target="_blank">
+                        <img src="img/instagram.svg" alt="instagram">
+                    </a>
+                </li>
+                <li class="nav__icons-item">
+                    <a href="#" class="nav__icons-link" target="_blank">
+                        <img src="img/phone.svg" alt="phone">
+                    </a>
+                </li>
+            </ul>
         </nav>
-        <ul class="nav__icons">
-            <li class="nav__icons-item">
-                <a href="#" class="nav__icons-link" target="_blank">
-                    <img src="img/messanger.svg">
-                </a>
-            </li>
-            <li class="nav__icons-item">
-                <a href="#" class="nav__icons-link" target="_blank">
-                    <img src="img/messanger.svg">
-                </a>
-            </li>
-            <li class="nav__icons-item">
-                <a href="#" class="nav__icons-link" target="_blank">
-                    <img src="img/messanger.svg">
-                </a>
-            </li>
-            <li class="nav__icons-item">
-                <a href="#" class="nav__icons-link" target="_blank">
-                    <img src="img/messanger.svg" alt="messanger">
-                </a>
-            </li>
-        </ul>
     </div>
 </header>
 <main>
-    <section class="head center">
-        <div class="head__title">
-            <h1>Віддалена</h1>
-            <h2>IT професія тестувальник ПЗ</h2>
-            <h3 class="head__subtitle">На вебінарі ви отримаєте <span style="color: #FDCA32">подарунок</span></h3>
+    <section class="head">
+        <div class="head__inner center">
+            <div class="head__title">
+                <h1>Віддалена</h1>
+                <h2>IT професія тестувальник ПЗ</h2>
+                <h3 class="head__subtitle">На вебінарі ви отримаєте <span style="color: #FDCA32">подарунок</span></h3>
+                <a class="btn" href="#">Зарееструватись</a>
+                <!--                <img class="arrow" src="img/arrow.png" alt="arrow">-->
+            </div>
         </div>
     </section>
     <section class="active">
@@ -89,32 +95,320 @@
                 <div class="about__inner-title">
                     <img class="about__inner-img" src="img/clock.png" alt="clock">
                     <div>
-                        <h2>Гнучкий графій</h2>
-                        <p>Віддалена робота дозволяє вам працювати з будь-якої точки світу та планувати свій графік відповідно до особистих потреб та пріоритетів.</p>
+                        <h2>Гнучкий графік</h2>
+                        <p>Віддалена робота дозволяє вам працювати з будь-якої точки світу та планувати свій графік
+                            відповідно до особистих потреб та пріоритетів.</p>
                     </div>
                 </div>
                 <div class="about__inner-title">
                     <img class="about__inner-img" src="img/sсhedule.png" alt="sсhedule">
                     <div>
                         <h2>Високий попит</h2>
-                        <p>ІТ-індустрія постійно розвивається, і попит на кваліфікованих тестувальників залишається стабільно високим.</p>
+                        <p>ІТ-індустрія постійно розвивається, і попит на кваліфікованих тестувальників залишається
+                            стабільно високим.</p>
                     </div>
                 </div>
                 <div class="about__inner-title">
                     <img class="about__inner-img" src="img/cap.png" alt="cap">
                     <div>
                         <h2>Професійний розвиток</h2>
-                        <p>Робота тестувальником ПЗ відкриває безліч можливостей для професійного зростання. Ви зможете постійно вдосконалювати свої навички та вивчати новітні технології.</p>
+                        <p>Робота тестувальником ПЗ відкриває безліч можливостей для професійного зростання. Ви зможете
+                            постійно вдосконалювати свої навички та вивчати новітні технології.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="salary">
+        <div class="salary__title">
+            <h2 class="salary__head-title">Інженер з забезпечення якості (QA) - це кар'єра з швидким розвитком та
+                високим доходом.</h2>
+            <h3 class="salary__head-subtitle">Професія тестувальника в IT подобається багатьом, оскільки забезпечує
+                швидкий кар'єрний ріст.</h3>
+        </div>
+        <div class="salary__inner center">
+            <canvas id="myChart"></canvas>
+        </div>
+        <div class="grid">
+            <div class="salary-750">
+                <h1>750$</h1>
+            </div>
+            <div class="salary-1450">
+                <h1>1800$</h1>
+            </div>
+            <div class="salary-2100">
+                <h1>3100$</h1>
+            </div>
+        </div>
+    </section>
+    <section class="stage">
+        <h1 class="stage__title">Як проходить навчання?</h1>
+        <div class="stage__section">
+            <div class="stage__block-first">
+                <img class="stage-people-task" src="img/stage-people-task.png" alt="Stage">
+                <h2>Теорітичний етап</h2>
+                <hr>
+                <ul>
+                    <li>Лекції та матеріали: Студенти проходять лекції та вивчають теоретичні матеріали, такі як книги,
+                        статті, презентації, що охоплюють основні концепції та принципи обраного напрямку IT.
+                    </li>
+                </ul>
+            </div>
+            <div class="stage__block-second">
+                <img class="stage-people-comp" src="img/stage-people-comp.png" alt="Stage">
+                <h2>Практичний етап</h2>
+                <hr>
+                <ul>
+                    <li>Студенти активно залучаються до вирішення завдань, які допомагають їм застосовувати теоретичні
+                        знання
+                        на практиці. Ці завдання охоплюють широкий спектр сценаріїв, що дозволяє студентам розвивати
+                        вміння
+                        та навички в реальних умовах роботи з програмним забезпеченням.
+                    </li>
+                </ul>
+            </div>
+            <div class="stage__block-third">
+                <img class="stage-people" src="img/stage-people.png" alt="Stage">
+                <h2>Підсумковий етап</h2>
+                <hr>
+                <ul>
+                    <li>Студенти проходять фінальні тести для оцінки своїх знань та отримують сертифікат про успішне
+                        завершення курсу. Цей етап відображає їхні досягнення та підтверджує їхню готовність до
+                        подальшої
+                        кар'єри у сфері тестування програмного забезпечення.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="program" id="program">
+        <div class="program__inner center">
+            <h2 class="program__title">Програма онлайн-курсу QA Manual 😎</h2>
+            <div class="accordion__inner">
+                <div class="accordion__inner-content">
+                    <div class="accordion__button">Введення у тестування програмного забезпечення
+                        <svg class="accordion__arrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                             viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);">
+                            <path d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"></path>
+                        </svg>
+                    </div>
+                    <div class="accordion__content">
+                        <ul class="accordion__content-title">
+                            <li>• Tester/QA/QC</li>
+                            <li>• Цілі тестування</li>
+                            <li>• Принципи тестування</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion__inner-content">
+                    <div class="accordion__button">Життєвий цикл розробки та тестування ПЗ</div>
+                    <div class="accordion__content">
+                        <ul class="accordion__content-title">
+                            <li>• SDLC (Software Development Life Cycle)</li>
+                            <li>• STLC (Software Testing Life Cycle)</li>
+                            <li>• Валідація та верифікація</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion__inner-content">
+                    <div class="accordion__button">Методології тестування</div>
+                    <div class="accordion__content">
+                        <ul class="accordion__content-title">
+                            <li>• Waterfall</li>
+                            <li>• Каскадні моделі</li>
+                            <li>• Kanban</li>
+                            <li>• Scrum</li>
+                            <li>• Техніки естимації</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion__inner-content">
+                    <div class="accordion__button">Види тестування</div>
+                    <div class="accordion__content">
+                        <ul class="accordion__content-title">
+                            <li>• Regression</li>
+                            <li>• Performance</li>
+                            <li>• Load</li>
+                            <li>• Stress</li>
+                            <li>• Smoke</li>
+                            <li>• Alpha/Beta Testing</li>
+                            <li>• White/Black/Gray Box Testing</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion__inner-content">
+                    <div class="accordion__button">Вимоги</div>
+                    <div class="accordion__content">
+                        <ul class="accordion__content-title">
+                            <li>• Вимоги до вимог</li>
+                            <li>• Вимоги та їх види</li>
+                            <li>• Тестування вимог</li>
+                            <li>• Тестування без технічної документації</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion__inner-content">
+                    <div class="accordion__button">Тестова документація</div>
+                    <div class="accordion__content">
+                        <ul class="accordion__content-title">
+                            <li>• Checklist</li>
+                            <li>• Test Case</li>
+                            <li>• Test Plan</li>
+                            <li>• Test Strategy</li>
+                            <li>• Test Report</li>
+                            <li>• Traceability Matrix</li>
+                            <li>• Test Rail</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion__inner-content">
+                    <div class="accordion__button">Баг</div>
+                    <div class="accordion__content">
+                        <ul class="accordion__content-title">
+                            <li>• Життєвий цикл бага</li>
+                            <li>• Priority VS Severity</li>
+                            <li>• Bug Report</li>
+                            <li>• Jira</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion__inner-content">
+                    <div class="accordion__button">Ризики</div>
+                    <div class="accordion__content">
+                        <ul class="accordion__content-title">
+                            <li>• Види ризиків</li>
+                            <li>• Реагування на ризики</li>
+                            <li>• Тестування на основі ризиків</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion__inner-content">
+                    <div class="accordion__button">Метрики</div>
+                    <div class="accordion__content">
+                        <ul class="accordion__content-title">
+                            <li>• Типи тестових метрик</li>
+                            <li>• Життєвий цикл тестових метрик</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion__inner-content">
+                    <div class="accordion__button">Клієнт-серверна архітектура</div>
+                    <div class="accordion__content">
+                        <ul class="accordion__content-title">
+                            <li>• Типи клієнт-серверної архітектури</li>
+                            <li>• HTTP/HTTPS, FTP, TCP/IP</li>
+                            <li>• Товстий і тонкий клієнт</li>
+                            <li>• Моноліт та Мікросервіс</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion__inner-content">
+                    <div class="accordion__button">АРІ</div>
+                    <div class="accordion__content">
+                        <ul class="accordion__content-title">
+                            <li>• Методи HTTP</li>
+                            <li>• HTTP. Коди стану</li>
+                            <li>• REST API</li>
+                            <li>• SOAP</li>
+                            <li>• JSON та XML</li>
+                            <li>• POSTMAN</li>
+                            <li>• Swagger</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion__inner-content">
+                    <div class="accordion__button">Тестування web-додатків</div>
+                    <div class="accordion__content">
+                        <ul class="accordion__content-title">
+                            <li>• Кроссбраузерність</li>
+                            <li>• Тестування верстки</li>
+                            <li>• Chrome DevTools</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion__inner-content">
+                    <div class="accordion__button">Тестування мобільних додатків</div>
+                    <div class="accordion__content">
+                        <ul class="accordion__content-title">
+                            <li>• Девайсозалежні перевірки</li>
+                            <li>• Емулятори та Симулятори</li>
+                            <li>• Перехват трафіку за допомогою Charles</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion__inner-content">
+                    <div class="accordion__button">Системи контролю версій</div>
+                    <div class="accordion__content">
+                        <ul class="accordion__content-title">
+                            <li>• Git</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion__inner-content">
+                    <div class="accordion__button">Основи автоматизації</div>
+                    <div class="accordion__content">
+                        <ul class="accordion__content-title">
+                            <li>• Selenium IDE</li>
+                            <li>• Навантажувальне тестування з jMeter</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cashback">
+        <div class="cashback__inner">
+            <img src="img/cashback.png" alt="cashback">
+            <div class="cashback__inner-content">
+                <h2>Ви зможете компенсувати вартість курсу QA після першого місяця роботи.
+                </h2>
+                <p>Ми свідомо встановили ціну, яка відповідає початковій зарплаті Junior QA Engineer. Навіщо? Щоб кожен
+                    міг здобути затребувану професію та знайти улюблену справу на все життя. Ми вважаємо, що якісне
+                    навчання не повинно коштувати занадто дорого, особливо для новачків.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="certificate">
+        <div class="certificate__inner center">
+            <div class="certificate__title">
+                <div class="certificate__title-content">
+                    <h2>Випускники отримують сертифікат про закінчення курсу
+                    </h2>
+                    <p>Сертифікат про закінчення навчання в IT школі підтверджує, що студент успішно завершив навчальну
+                        програму і набув відповідних знань та навичок. Такий документ може бути важливим доповненням до
+                        резюме і використовуватися для пошуку роботи в IT сфер</p>
+                </div>
+                <div class="certificate__main-bg">
+                    <div class="certificate__main-white">
+                        <div class="certificate__main-front">
+                            <div class="certificate__main-content">
+                                <div class="certificate__content-title">
+                                    <img src="img/logo.png" alt="logo">
+                                    <span>№0000001</span>
+                                </div>
+                                <h2>Certificate</h2>
+                                <h3>This certificate is presented to:</h3>
+                                <h4>Ivanov Ivan</h4>
+                                <p>SUCCESSFULLY COMPLETED 30 HOURS OF THE SOFTWARE TESTING COURSE AND PASSED THE EXAM</p>
+                                <div class="end">
+                                    <span>PRESIDENT OF THE ACADEMY</span>
+                                    <span>COURSE TUTOR</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 </main>
-
 <footer>
 
 </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="./js/main.js"></script>
 
 </body>
 </html>
